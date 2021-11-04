@@ -15,6 +15,7 @@ else {
   timer = setInterval(deshabilitar, 20000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
+}
 
 function deshabilitar() {
   frm = document.forms['formulario'];
