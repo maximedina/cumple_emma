@@ -1,4 +1,4 @@
-function seleccion() 
+function seleccion() {
 if (document.formulario.opcion.value == "J") {
   document.getElementById("Pista2").style.display = "inline-flex";
 }
@@ -7,12 +7,11 @@ else {
   timer = setInterval(deshabilitar, 20000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
-}
 
 function deshabilitar() {
   document.getElementsByTagName("body").disabled=false;
 }
-
+}
 
 /*
 //Inicializacion de variables: turno inicial, cronometros, etc.
