@@ -21,7 +21,6 @@ function deshabilitar() {
   for(i=0; ele=frm.elements[i]; i++)
     ele.disabled=false;
 }
-}
 
 /*
 //Inicializacion de variables: turno inicial, cronometros, etc.
