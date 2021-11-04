@@ -5,13 +5,21 @@ if (document.formulario.opcion.value == "J") {
 
 }
 else {
+
+  frm = document.forms['formulario'];
+  for(i=0; ele=frm.elements[i]; i++)
+    ele.disabled=true;
+
+
   document.getElementsById("formulario").disabled=true; //.getElementById("nombreJug3").style.display = "none";
   timer = setInterval(deshabilitar, 20000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
 
 function deshabilitar() {
-  document.getElementsByTagName("body").disabled=false;
+  frm = document.forms['formulario'];
+  for(i=0; ele=frm.elements[i]; i++)
+    ele.disabled=false;
 }
 }
 
