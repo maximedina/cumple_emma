@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>4 en linea</title>
+  <title>Búsqueda del tesoro</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js"></script>
 </head>
@@ -11,21 +11,20 @@
 
   <h3 style="text-align: center; color: #3f7320;">Equipo 1 😁</h3>
   <!-- Este comentario es visible solo en el editor fuente -->
-  <p><strong>Pista 1</strong></p>
+  <p><strong>Pista 1</strong> (Si se equivocan tienen que esperar 20 segundos...)</p>
   <p><strong>Cual es la letra que falta?</strong></p>
   <p><img class="imageLeft" src="Imagenes/19563.png" alt="Ed" /></p>
   <p></p>
   <form name="formulario" id="formulario">
-  <table class="demoTable" style="height: 53px; width: 426px;">
+  <table>
   <thead>
-  <tr style="height: 17px;">
-  <td style="width: 151.969px; height: 17px;"><span style="color: #c82828;">Opciones</span></td>
-  <td style="width: 267.031px; height: 17px;"></td>
+  <tr">
+  <th><span style="color: #c82828;">Opciones</span></th>
   </tr>
   </thead>
   <tbody>
-  <tr style="height: 36px;">
-  <td style="width: 151.969px; height: 36px;">
+  <tr>
+  <td>
   <div><input type="radio" id="op1" name="opcion" value="H" onclick="seleccion()"/>&nbsp;H</div>
   <div><input type="radio" id="op2" name="opcion" value="I" onclick="seleccion()"/>&nbsp;I</div>
   <div><input type="radio" id="op3" name="opcion" value="J" onclick="seleccion()"/> <label for="op">J</label></div>
@@ -37,7 +36,6 @@
   <div><input type="radio" id="op9" name="opcion" value="O" onclick="seleccion()"/>&nbsp;O</div>
   <div><input type="radio" id="op10" name="opcion" value="P" onclick="seleccion()"/>&nbsp;P</div>
   </td>
-  <td style="width: 267.031px; height: 36px;"></td>
   </tr>
   </tbody>
   </table>
