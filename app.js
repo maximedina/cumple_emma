@@ -1,3 +1,20 @@
+function seleccion() 
+if (document.formulario.opcion.value == "J") {
+  document.getElementById("Pista2").style.display = "inline-flex";
+}
+else {
+  document.getElementsByTagName("body").disabled=true; //.getElementById("nombreJug3").style.display = "none";
+  timer = setInterval(deshabilitar, 20000);
+  //document.getElementById("nombreJug3").style.display = "none";
+}
+}
+
+function deshabilitar() {
+  document.getElementsByTagName("body").disabled=false;
+}
+
+
+/*
 //Inicializacion de variables: turno inicial, cronometros, etc.
 var turno = "J1";
 var contadorJugador1 = 0;
@@ -442,3 +459,5 @@ function incrementarTiempo() {
 function enviarEmail() {
   document.location = "mailto:" + "maximedina@gmail.com" + "?cc=" + document.getElementById("email").value + "&subject=" + "Contacto" + "&body=" + document.getElementById("mensaje").value;
 }
+
+*/
