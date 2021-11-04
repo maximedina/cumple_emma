@@ -36,6 +36,16 @@ table {
   background-color: rgba(235, 221, 212, 0.8);
   border-radius: 10px;
 }
+
+#pista2 {
+  background-color: rgba(66, 46, 33, 0.8);
+  border-radius: 10px;
+}
+
+.pista_nueva{
+  color:antiquewhite;
+}
+
 /*
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
