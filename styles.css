@@ -28,7 +28,13 @@ background-color: #464646;
 }
 
 table {
-  background-color: rgba(179, 143, 120, .8);
+  background-color: rgba(235, 221, 212, 0.8);
+  border-radius: 5px;
+}
+
+#pista {
+  background-color: rgba(235, 221, 212, 0.8);
+  border-radius: 10px;
 }
 /*
 body {
