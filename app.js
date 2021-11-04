@@ -5,7 +5,7 @@ if (document.formulario.opcion.value == "J") {
 
 }
 else {
-  document.getElementsByTagName("body").disabled=true; //.getElementById("nombreJug3").style.display = "none";
+  document.getElementsById("formulario").disabled=true; //.getElementById("nombreJug3").style.display = "none";
   timer = setInterval(deshabilitar, 20000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
