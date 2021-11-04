@@ -8,11 +8,11 @@ else {
 
   frm = document.forms['formulario'];
   for(i=0; ele=frm.elements[i]; i++)
-    ele.disabled=true;
+    {ele.disabled=true;}
 
 
   //document.getElementsById("formulario").disabled=true; //.getElementById("nombreJug3").style.display = "none";
-  timer = setInterval(habilitar, 20000);
+  timer = setInterval(habilitar, 5000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
 }
@@ -21,7 +21,8 @@ function habilitar() {
   alert("habilitar");
   frm = document.forms['formulario'];
   for(i=0; ele=frm.elements[i]; i++)
-    ele.disabled=false;
+    {ele.disabled=false;}
+    clearInterval(timer);
 }
 
 /*
