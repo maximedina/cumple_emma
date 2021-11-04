@@ -1,6 +1,8 @@
 function seleccion() {
+  alert(document.formulario.opcion.value);
 if (document.formulario.opcion.value == "J") {
   document.getElementById("Pista2").style.display = "inline-flex";
+
 }
 else {
   document.getElementsByTagName("body").disabled=true; //.getElementById("nombreJug3").style.display = "none";
