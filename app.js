@@ -11,13 +11,14 @@ else {
     ele.disabled=true;
 
 
-  document.getElementsById("formulario").disabled=true; //.getElementById("nombreJug3").style.display = "none";
-  timer = setInterval(deshabilitar, 20000);
+  //document.getElementsById("formulario").disabled=true; //.getElementById("nombreJug3").style.display = "none";
+  timer = setInterval(habilitar, 20000);
   //document.getElementById("nombreJug3").style.display = "none";
 }
 }
 
-function deshabilitar() {
+function habilitar() {
+  alert("habilitar");
   frm = document.forms['formulario'];
   for(i=0; ele=frm.elements[i]; i++)
     ele.disabled=false;
