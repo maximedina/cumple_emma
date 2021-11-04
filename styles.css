@@ -1,6 +1,7 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /*height:665px;*/
+  font-size: x-large;
   background-image: url("Imagenes/804615.jpg");
   /*background-size: 10rem;*/
 
@@ -26,6 +27,9 @@ background-color: #464646;
 
 }
 
+table {
+  background-color: rgba(179, 143, 120, .8);
+}
 /*
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
