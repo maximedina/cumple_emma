@@ -14,7 +14,7 @@ window.onload = function () {
 };
 function seleccion() {
   if (document.formulario.opcion.value == "J") {
-    document.getElementById("pista2").style.display = "inline-flex";
+    document.getElementById("pista_nueva").style.display = "grid";
   } else {
     tiempo = 10;
     frm = document.forms["formulario"];
