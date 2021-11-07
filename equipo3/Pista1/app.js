@@ -16,7 +16,7 @@ function seleccion() {
   if (document.formulario.opcion.value == "J") {
     document.getElementById("pista_nueva").style.display = "grid";
   } else {
-    tiempo = 10;
+    tiempo = 20;
     frm = document.forms["formulario"];
     for (i = 0; (ele = frm.elements[i]); i++) {
       ele.disabled = true;
