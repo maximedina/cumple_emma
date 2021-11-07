@@ -13,7 +13,7 @@ window.onload = function () {
   }
 };
 function seleccion() {
-  if (document.formulario.opcion.value == "J") {
+  if (document.formulario.opcion.value == 1) {
     document.getElementById("pista_nueva").style.display = "grid";
   } else {
     tiempo = 20;
